@@ -1,0 +1,12 @@
+gateways:
+  default:
+    connection:
+      type: duckdb
+      database: data/warehouse.duckdb
+
+model_defaults:
+  dialect: duckdb
+  start: "1990-01-01"
+
+variables:
+  start_date: "1990-01-01"
